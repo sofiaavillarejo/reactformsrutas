@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Home from "./Home";
 import Cine from "./Cine";
 import Musica from "./Musica";
+import Collazt from "./Collazt";
 
 export default class Router extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class Router extends Component {
             <Route path="/" element={<Home/>}></Route>
             <Route path="/cine" element={<Cine/>}></Route>
             <Route path="/musica" element={<Musica/>}></Route>
+            <Route path="/collazt" element={<Collazt/>}></Route>
         </Routes>
       </BrowserRouter>
     )
