@@ -4,6 +4,9 @@ import Home from "./Home";
 import Cine from "./Cine";
 import Musica from "./Musica";
 import Collazt from "./Collazt";
+import TablaMultiplicar from "./TablaMultiplicar";
+import TablaMultiplicar2 from "./TablaMultiplicar2";
+import SeleccionMultiple from "./SeleccionMultiple";
 
 export default class Router extends Component {
   render() {
@@ -17,6 +20,9 @@ export default class Router extends Component {
             <Route path="/cine" element={<Cine/>}></Route>
             <Route path="/musica" element={<Musica/>}></Route>
             <Route path="/collazt" element={<Collazt/>}></Route>
+            <Route path="/tablamultiplicar" element={<TablaMultiplicar/>}></Route>
+            <Route path="/tablamultiplicar2" element={<TablaMultiplicar2/>}></Route>
+            <Route path="/seleccionmultiple" element={<SeleccionMultiple/>}></Route>
         </Routes>
       </BrowserRouter>
     )
